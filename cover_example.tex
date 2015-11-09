@@ -1,0 +1,57 @@
+\documentclass[10pt,stdletter]{newlfm}
+\usepackage{charter}
+
+\widowpenalty=1000
+\clubpenalty=1000
+
+\newsavebox{\Luiuc}
+\sbox{\Luiuc}{%
+	\parbox[b]{1.75in}{%
+		\vspace{0.5in}%
+		\includegraphics[scale=0.08]
+		{ea.eps}%
+	}%
+}%
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{headermarginskip=20pt}
+\newlfmP{sigsize=50pt}
+\newlfmP{dateskipafter=20pt}
+\newlfmP{addrfromphone}
+\newlfmP{addrfromemail}
+\PhrPhone{Phone}
+\PhrEmail{Email}
+
+\lthUiuc
+
+\namefrom{Qi Liao}
+\addrfrom{%
+	615 Garrett Place\\
+	Evanston, IL, Unite States
+}
+\phonefrom{224-307-9188}
+\emailfrom{qiliao2014@u.northwestern.edu}
+
+\addrto{%
+Electronic Arts\\
+Recruitment Officer\\
+11501    Domain\\
+Dr, Austin, TX 78759}
+
+\greetto{To Whom It May Concern,}
+\closeline{Sincerely,}
+\begin{document}
+\begin{newlfm}
+
+I am particularly interested to begin my career at EA.  It is by far the world's prime mover in developer,marketer, publisher and distributor of video games -- and I want to be part of it.  I believe I have meaningful credentials 
+put together from my educational background, work experience, special projects and programs I worked on, along with critical skills and talents I developed over the years, both on campus and in actual work sites.
+
+I will be graduating in December with an M.S. in Computer Science degree from Northwestern University.My bachelor's degree is also in Computer Science.  Prior to my graduate education, I was employed for 3 years with ChinaUnicom as a Networking Engineer, ensuring over 5 million customers for uninterrupted internet service at all times.  I also did internship with Cable Radio & Television Network, Ltd. in Chengdu.  Along the way, I developed skills in HTTP 
+client and server and TCP protocol, programming languages and platforms and even developed a personal app for 
+restaurant selections.Attached is my resume. 
+
+I hope I'd get the chance to explore employment with EA further and help me unleash my potential.  In return, I assure you of my loyalty and drive, and high level of productivity that starts from Day One. Thank you.
+
+\end{newlfm}
+\end{document}
+
